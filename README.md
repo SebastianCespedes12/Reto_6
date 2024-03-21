@@ -1,4 +1,4 @@
->## 1.Una función matemática para calcular el volumen y el área superficial. 
+>## 1.Una función matemática para calcular el volumen y el área superficial
 
 >Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
 
