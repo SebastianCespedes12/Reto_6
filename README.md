@@ -1,4 +1,4 @@
-#Reto 6
+# Reto 6
 
 >## 1.Una función matemática para calcular el volumen y el área superficial
 
@@ -101,6 +101,7 @@ if __name__ == "__main__":
 
 >## 6.El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
 
+```python
 def Calculo_cantidad_enfermos (D:int, C:int) ->int:
   cantidad_enfermos = (2*C)**D 
   return cantidad_enfermos
@@ -110,7 +111,7 @@ if __name__ == "__main__":
   C= int(input("Numero actual de contagiados: "))
   cantidad_enfermos_actual = Calculo_cantidad_enfermos(D,C)
   print(f"Cuando pasen {D} dias van a haber: {cantidad_enfermos_actual} enfermos")
-
+```
 
 >## 7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
 >El promedio
