@@ -73,16 +73,16 @@ def calculo_cantidad_de_carne (N:int, M:int, K:int)->int:
 
 ```python
 def Calculo_vueltas (P:int, M:int, H:int,B:int) ->int :
-	Vueltas_final = B-(300*P+ 3300*M +350*H)
-	return Vueltas_final
+  Vueltas_final = B-(300*P+ 3300*M +350*H)
+  return Vueltas_final
 
 if __name__ == "__main__":
-	P= int(input("Cantidad de panes: "))
-	M= int(input("Cantidad de bolsas de leche: "))
-	H= int(input("Cantidad de huevos: "))
-	B= int(input("Billete de: "))
-	Vueltas = Calculo_vueltas (P,M,H,B) 
-	print(f"Me dan de vueltas o debo: {Vueltas}")
+  P= int(input("Cantidad de panes: "))
+  M= int(input("Cantidad de bolsas de leche: "))
+  H= int(input("Cantidad de huevos: "))
+  B= int(input("Billete de: "))
+  Vueltas = Calculo_vueltas (P,M,H,B) 
+  print(f"Me dan de vueltas o debo: {Vueltas}")
 ```
 
 >## 5.Haga un programa que utilice una función para calcular el valor de un préstamo c usando interés compuesto del i por n meses.
