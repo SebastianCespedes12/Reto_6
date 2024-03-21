@@ -1,4 +1,4 @@
->#### 1.Una función matemática para calcular el volumen y el área superficial.
+>## 1.Una función matemática para calcular el volumen y el área superficial.
 
 >Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
 
@@ -29,7 +29,7 @@ x =math.pi
 print(x)
 # 3.1415...
 ```
->#### 2.Una función matemática para calcular el área y el perimetro. 
+>## 2.Una función matemática para calcular el área y el perimetro. 
 
 >Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b. 
 
@@ -60,13 +60,13 @@ x =math.pi
 print(x)
 # 3.1415...
 ```
->#### 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
+>## 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
 ```python
 def calculo_cantidad_de_carne (N:int, M:int, K:int)->int:
   return 6*N + 7*M + K
 ```
->#### 4.Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
+>## 4.Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
 ```python
 def Calculo_vueltas (P:int, M:int, H:int,B:int) ->int :
@@ -82,7 +82,7 @@ if __name__ == "__main__":
 	print(f"Me dan de vueltas o debo: {Vueltas}")
 ```
 
->#### 5.Haga un programa que utilice una función para calcular el valor de un préstamo c usando interés compuesto del i por n meses.
+>## 5.Haga un programa que utilice una función para calcular el valor de un préstamo c usando interés compuesto del i por n meses.
 
 ```python
 def Calculo_interes_compuesto (i:float, n:float, c:float) :
@@ -97,7 +97,7 @@ if __name__ == "__main__":
   print("Valor final del prestamo es: "+str(Valor_final))
 ```
 
->#### 6.El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
+>## 6.El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
 
 def Calculo_cantidad_enfermos (D:int, C:int) ->int:
   cantidad_enfermos = (2*C)**D 
@@ -110,7 +110,7 @@ if __name__ == "__main__":
   print(f"Cuando pasen {D} dias van a haber: {cantidad_enfermos_actual} enfermos")
 
 
->#### 7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
+>## 7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
 >El promedio
 
 ```python
@@ -623,15 +623,15 @@ def calculo_raíz_cúbica_del_menor_número (a,b,c,d,e) :
 # Tambien con b,c,d,e =n1 (ver archivo adjunto: punto_7.py)
 ```
 
->#### 8.Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
+>## 8.Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
 ```python
 from Punto_7 import *
 ```
 
->#### 9.Consultar qué es y cómo funciona pip en python.
+>## 9.Consultar qué es y cómo funciona pip en python.
 
->#### 10.Consultar qué es y cómo funciona pip en python.
+>## 10.Consultar qué es y cómo funciona pip en python.
 
 
 
