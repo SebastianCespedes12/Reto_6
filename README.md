@@ -5,20 +5,20 @@
 ```python
 from math import pi
 def Calculo_volumen (r1:float, r2:float, h:float) ->float:
-    Volumen = (4/3 * pi * r1**3)+((pi* r2**2* h)/3)
-    return Volumen
+	Volumen = (4/3 * pi * r1**3)+((pi* r2**2* h)/3)
+	return Volumen
 
 def Calculo_area_superficial (r1, r2, h) ->float:
-    Area = (4*pi*r1**2)+((pi*r2**2)+(pi*r2*((r2**2+h**2)**0.5)))
-    return Area
+	Area = (4*pi*r1**2)+((pi*r2**2)+(pi*r2*((r2**2+h**2)**0.5)))
+	return Area
 
 if __name__ == "__main__":
-    r1 =float(input("Radio de esfera: "))
-    r2 =float(input("Radio de cono: "))
-    h =float(input("Altura de cono: "))
-    Volumen_figura = Calculo_volumen(r1,r2,h)
-    Area_superficial = Calculo_area_superficial(r1,r2,h)
-    print("El volumen es: " + str(Volumen_figura) + ", el area superficial es: " + str(Area_superficial))
+	r1 =float(input("Radio de esfera: "))
+	r2 =float(input("Radio de cono: "))
+	h =float(input("Altura de cono: "))
+	Volumen_figura = Calculo_volumen(r1,r2,h)
+	Area_superficial = Calculo_area_superficial(r1,r2,h)
+	print("El volumen es: " + str(Volumen_figura) + ", el area superficial es: " + str(Area_superficial))
 ```
 
 >Revise como utilizar el valor de pi usando import math y math.pi
@@ -36,20 +36,20 @@ print(x)
 ```python
 from math import pi
 def Calculo_area (r:float, a:float, b:float)->float :
-  Area = (a*b)+(2*(pi*r**2))
-  return Area 
+	Area = (a*b)+(2*(pi*r**2))
+	return Area 
 
 def Calculo_perimetro (r,a,b) ->float :
-  Perimetro = (2*(a+b))+(2*(2*pi*r))
-  return Perimetro
+	Perimetro = (2*(a+b))+(2*(2*pi*r))
+	return Perimetro
 
 if __name__ == "__main__":
-  r =float(input("Radio de circulos: "))
-  a =float(input("Altura del rectangulo: "))
-  b =float(input("Largo del rectangulo: "))
-  Area_total = Calculo_area(r,a,b)
-  Perimetro_total = Calculo_perimetro(r,a,b)
-  print("El Perimetro es: "+ str(Perimetro_total)+ ", El area es: " + str(Area_total))
+	r =float(input("Radio de circulos: "))
+	a =float(input("Altura del rectangulo: "))
+	b =float(input("Largo del rectangulo: "))
+	Area_total = Calculo_area(r,a,b)
+	Perimetro_total = Calculo_perimetro(r,a,b)
+	print("El Perimetro es: "+ str(Perimetro_total)+ ", El area es: " + str(Area_total))
 ```
 
 >Revise como utilizar el valor de pi usando import math y math.pi
@@ -64,7 +64,7 @@ print(x)
 
 ```python
 def calculo_cantidad_de_carne (N:int, M:int, K:int)->int:
-  return 6*N + 7*M + K
+	return 6*N + 7*M + K
 ```
 >## 4.Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
@@ -86,44 +86,45 @@ if __name__ == "__main__":
 
 ```python
 def Calculo_interes_compuesto (i:float, n:float, c:float) :
-  Valor_futuro = c*(1+i/100)**n
-  return Valor_futuro
+	Valor_futuro = c*(1+i/100)**n
+	return Valor_futuro
 
 if __name__ == "__main__":
-  c = float(input("Valor del prestamo: "))
-  i = float(input("Tasa de interes de: "))
-  n = float(input("Cantidad de meses: "))
-  Valor_final = Calculo_interes_compuesto (i,n,c)
-  print("Valor final del prestamo es: "+str(Valor_final))
+	c = float(input("Valor del prestamo: "))
+	i = float(input("Tasa de interes de: "))
+	n = float(input("Cantidad de meses: "))
+	Valor_final = Calculo_interes_compuesto (i,n,c)
+	print("Valor final del prestamo es: "+str(Valor_final))
 ```
 
 >## 6.El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
 
+```python
 def Calculo_cantidad_enfermos (D:int, C:int) ->int:
-  cantidad_enfermos = (2*C)**D 
-  return cantidad_enfermos
+	cantidad_enfermos = (2*C)**D 
+	return cantidad_enfermos
 
 if __name__ == "__main__":
-  D= int(input("Cantidad de dias que pasaron desde hoy: "))
-  C= int(input("Numero actual de contagiados: "))
-  cantidad_enfermos_actual = Calculo_cantidad_enfermos(D,C)
-  print(f"Cuando pasen {D} dias van a haber: {cantidad_enfermos_actual} enfermos")
-
+	D= int(input("Cantidad de dias que pasaron desde hoy: "))
+	C= int(input("Numero actual de contagiados: "))
+	cantidad_enfermos_actual = Calculo_cantidad_enfermos(D,C)
+	print(f"Cuando pasen {D} dias van a haber: {cantidad_enfermos_actual} enfermos")
+```
 
 >## 7.Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
 >El promedio
 
 ```python
 def Calculo_promedio (a:float,b:float,c:float,d:float,e:float) :
-  return(a+b+c+d+e)/5
+	return(a+b+c+d+e)/5
 ```
 
 >La mediana
 
 ```python
 def Calculo_mediana (a,b,c,d,e) :
-  if a<=b and a<=c and a<=d and a<=e :
-    n1=a
+	if a<=b and a<=c and a<=d and a<=e :
+		n1=a
     if b<=c and b<=d and b<=e :
         n2=b
         if c<=d and c<=e :
