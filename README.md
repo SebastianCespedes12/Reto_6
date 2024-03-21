@@ -5,13 +5,13 @@
 >Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
 	
 ```python
-from math import pi
+import math
 def Calculo_volumen (r1:float, r2:float, h:float) ->float:
-	Volumen = (4/3 * pi * r1**3)+((pi* r2**2* h)/3)
+	Volumen = (4/3 * math.pi * r1**3)+((math.pi* r2**2* h)/3)
 	return Volumen
 
 def Calculo_area_superficial (r1, r2, h) ->float:
-	Area = (4*pi*r1**2)+((pi*r2**2)+(pi*r2*((r2**2+h**2)**0.5)))
+	Area = (4*math.pi * r1**2)+((math.pi * r2**2)+(math.pi*r2* ((r2**2 + h**2) **0.5)))
 	return Area
 
 if __name__ == "__main__":
