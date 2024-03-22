@@ -631,6 +631,14 @@ def calculo_raíz_cúbica_del_menor_número (a,b,c,d,e) :
 
 ```python
 from Punto_7 import *
+
+Promedio = Calculo_promedio (a,b,c,d,e)
+Mediana = Calculo_mediana (a,b,c,d,e)
+Promedio_multiplicativo = Calculo_promedio_multiplicativo (a,b,c,d,e)
+Forma_ascendente = Ordenar_numeros_ascendente (a,b,c,d,e)
+Forma_descendente = ordenar_numero_descendente (a,b,c,d,e)
+potencia_del_mayor_número_elevado_al_menor_número = calculo_potencia_mayor_numero_elevado_al_menor_número (a,b,c,d,e)
+raiz_cubica_del_menor_numero = calculo_raíz_cúbica_del_menor_número (a,b,c,d,e)
 ```
 
 >## 9.Consultar qué es y cómo funciona pip en python.
