@@ -635,4 +635,29 @@ from Punto_7 import *
 
 >## 9.Consultar qué es y cómo funciona pip en python.
 
->## 10.Consultar qué es y cómo funciona pip en python.
+pip es un sistema de gestion de paquetes para python, paquetes que contienen modulos. Funciona por medio de la linea de comandos. Desde python 3.4 esta implementado automaticamente.
+
+>## 10.Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+
+Los [modulos mas populares para python](https://www.mygreatlearning.com/blog/open-source-python-libraries/) son:
+
+Librerias
+------------- |
+Numpy |
+Pandas |
+Matplotlib|
+Scipy |
+Scikit learn|
+Seabron|
+Plotly|
+Bokeh|
+Transformers|
+
+se instalan por medio de la terminal, con el siguiente comando::
+```
+pip install [nombre del paqute]
+```
+ó 
+```
+py -m pip install [nombre del paqute]
+```
